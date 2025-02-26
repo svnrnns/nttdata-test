@@ -68,6 +68,7 @@ const showNext = computed(() => offset.value + LIMIT < total.value);
           :data="data.response.results"
         />
         <PokemonPagination
+          class="mb-10"
           @on-start="offset = 0"
           @on-previous="offset -= LIMIT"
           @on-next="offset += LIMIT"
