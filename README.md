@@ -6,7 +6,7 @@ Esta aplicación ha sido desarrollada en Vue 3 (ver 3.5.13), Vite 6 y TailwindCS
 
 ## Despliegue
 
-La aplicaciónn está desplegada en su rama `main` [aquí](https://nttdata-test.vercel.app).
+La aplicación está desplegada en su rama `main` [aquí](https://nttdata-test.vercel.app).
 
 ## Instalación
 
