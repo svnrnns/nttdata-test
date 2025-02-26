@@ -1,5 +1,9 @@
 # NNTData Test
 
+## Tecnologias
+
+Esta aplicación ha sido desarrollada en Vue 3 (ver 3.5.13), Vite 6 y TailwindCSS 4.
+
 ## Instalación
 
 Clona el repositorio usando HTTP o SSH. Una vez clonado, muevete al directorio `nttdata-test` e instala las dependencias necesarias con el siguiente comando:
