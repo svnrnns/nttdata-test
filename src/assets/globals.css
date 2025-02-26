@@ -1,0 +1,32 @@
+* {
+  @apply font-albert;
+  scroll-behavior: smooth;
+}
+
+html,
+body #app {
+  @apply bg-body !p-0 text-font;
+  scrollbar-width: thin;
+}
+
+/* Lib */
+.debug-box {
+  @apply text-font fixed bottom-0 right-0 bg-module/80 z-50 p-2 m-2 rounded-xl shadow overflow-auto hover:opacity-50 transition-all;
+  max-width: 50vw;
+  max-height: 50vh;
+  white-space: pre;
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.flex-col-center {
+  @apply flex flex-col items-center justify-center;
+}
+
+.dynamic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-rows: minmax(150px, auto);
+}
