@@ -9,7 +9,6 @@ import useGetEndpoint from "@/composables/useGetEndpoint";
 import { computed } from "vue";
 import { expect } from "vitest";
 
-// Mock `useGetEndpoint`
 vi.mock("@/composables/useGetEndpoint", () => ({
   default: vi.fn(),
 }));
