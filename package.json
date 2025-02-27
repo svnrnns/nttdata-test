@@ -6,12 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.9",
+    "@vue/test-utils": "^2.4.0-alpha.2",
     "axios": "^1.8.1",
+    "happy-dom": "^17.1.8",
     "tailwindcss": "^4.0.9",
+    "vitest": "^3.0.7",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },

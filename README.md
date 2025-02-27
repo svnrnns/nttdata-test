@@ -87,3 +87,19 @@ Un ejemplo de uso de esta función sería.
 ```js
 const data = useGetEndpoint("pokemon", { offset: 10 });
 ```
+
+## Tests
+
+Para lanzar los tests, usa el siguiente comando:
+
+```bash
+npm run test
+```
+
+Los tests han sido realizados con `Vitest` usando el motor `happy-dom` para crear un DOM virtual.
+
+Se testea si la funcionalidad core de todas las vistas es correcta en base a las diferentes respuestas que puede dar la PokeApi:
+
+- Cargando infinitamente.
+- La llamada falla.
+- La llamada no falla.
